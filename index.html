@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes & Séries HD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #1c1c1c;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .search {
+      padding: 15px;
+      text-align: center;
+    }
+
+    input {
+      width: 90%;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 8px;
+      border: none;
+      border-radius: 8px;
+      background: #e50914;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>🎬 Filmes & Séries HD</header>
+
+<div class="search">
+  <input type="text" placeholder="Pesquisar filmes e séries...">
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h3>Exemplo Filme</h3>
+    <button>Ver detalhes</button>
+  </div>
+
+  <div class="card">
+    <h3>Exemplo Série</h3>
+    <button>Ver detalhes</button>
+  </div>
+</div>
+
+</body>
+</html>
